@@ -41,8 +41,8 @@ have it already. (Did I mention that it’s excellent?)
 
 ## INSTALLATION
 
-The easiest way to install is with vim-pathogen[pathogen]. Install that first,
-and then simply do the following:
+The easiest way to install is with [vim-pathogen][pathogen]. Install that
+first, and then simply do the following:
 
     cd ~/.vim/bundle	" or cd ~/.config/nvim/bundle
     git clone https://bitbucket.org/telemachus/vim-macrons
