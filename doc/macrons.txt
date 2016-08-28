@@ -1,0 +1,64 @@
+*macrons.txt* Plugin for deleting and adding macrons to vowels
+
+Author: Peter Aronoff <telemachus@arpinum.org>
+License: BSD 3-clause license (see LICENSE.md)
+Version: 0.0.1
+
+INTRODUCTION                                    *macrons*
+
+A set of utility functions and mappings to make it easier to add or remove
+macrons.
+
+COMMANDS                                        *macrons-commands*
+
+>
+	[range]Demacronize	" Remove macrons from a range of lines
+	[range]Macronize	" Add macrons to a range of lines
+<
+
+Both functions accept an optional range. If no range is given, they default to
+the entire file. This makes it simple to remove the macrons from a whole file
+quickly.
+
+CUSTOMIZING                                     *macrons-customizing*
+
+Three maps are available, one for normal mode and two for visual mode. Add
+whatever key mappings you prefer to your ~/.vimrc or ~/.config/nvim/init.vim
+file. For example,
+
+>
+	" In normal mode, flip the macron on a single vowel.
+	" That is, if the vowel has a macron, remove it, and if it doesn’t
+	" have a macron, add one.
+	map <silent> <leader>mf <Plug>CharMacronFlip
+
+	" Place macrons on all the vowels in a visual selection.
+	map <silent> <leader>mo <Plug>MacronsOn
+
+	" Remove all the  macrons from a visual selection.
+	map <silent> <leader>nm <Plug>MacronsOff
+<
+
+All the mappings can be repeated with `.` if you have Tim Pope’s excellent
+vim-repeat[1] installed. You should really install that if you don’t have it
+already. (Did I mention that it’s excellent?)
+
+INSTALLATION					*macrons-installation*
+
+The easiest way to install is with vim-pathogen[2]. Install that first, and
+then simply do the following:
+
+>
+	cd ~/.vim/bundle	" or cd ~/.config/nvim/bundle
+	git clone https://bitbucket.org/telemachus/vim-macrons
+<
+
+ISSUES                                          *macrons-issues*
+
+Only the macrons on vowels are added, removed, or flipped. This is by design,
+but maybe that’s a mistake. Let me know if you think so.
+
+[1] https://github.com/tpope/vim-repeat
+[2] https://github.com/tpope/vim-pathogen
+
+ vim:tw=78:ts=8:ft=help
