@@ -1,9 +1,9 @@
-# macrons: Plugin for deleting and adding macrons to vowels
+# macrons: a {neo,}vim plugin for adding and deleting macrons
 
 ## INTRODUCTION
 
 A set of utility functions and mappings to make it easier to add or remove
-macrons.
+macrons from vowels.
 
 ## COMMANDS
 

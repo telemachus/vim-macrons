@@ -1,4 +1,4 @@
-*macrons.txt* Plugin for deleting and adding macrons to vowels
+*macrons.txt* a {neo,}vim plugin for deleting and adding macrons
 
 Author: Peter Aronoff <telemachus@arpinum.org>
 License: BSD 3-clause license (see LICENSE.md)
@@ -7,7 +7,7 @@ Version: 0.0.1
 INTRODUCTION                                    *macrons*
 
 A set of utility functions and mappings to make it easier to add or remove
-macrons.
+macrons to vowels.
 
 COMMANDS                                        *macrons-commands*
 
