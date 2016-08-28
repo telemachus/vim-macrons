@@ -1,9 +1,5 @@
 # macrons: Plugin for deleting and adding macrons to vowels
 
-+ Author: Peter Aronoff <telemachus@arpinum.org>
-+ License: BSD 3-clause license (see LICENSE.md)
-+ Version: 0.0.1
-
 ## INTRODUCTION
 
 A set of utility functions and mappings to make it easier to add or remove
@@ -54,3 +50,7 @@ but maybe that’s a mistake. Let me know if you think so.
 
 [repeat]: https://github.com/tpope/vim-repeat
 [pathogen]: https://github.com/tpope/vim-pathogen
+
+## LICENSE
+
+See LICENSE.md for details, but in a nutshell BSD 3-clause.
