@@ -1,4 +1,4 @@
-Copyright (c) 2016-2017, Peter Aronoff All rights reserved.
+Copyright (c) 2016-2020, Peter Aronoff All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
